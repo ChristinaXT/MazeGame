@@ -15,5 +15,5 @@ Runner.run(Runner.create(), engine);
 
 //Walls
 const walls = [
-  Bodies.rectangle()
+  Bodies.rectangle(400, 0, 800, 40 { isStatic: is true})
 ];
