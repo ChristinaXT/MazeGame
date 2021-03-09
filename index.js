@@ -46,5 +46,6 @@ for (let i = 0; i < 50; i++) {
      world,
      Bodies.circle(Math.random() * width, Math.random() * height, 35)
    );
+ 
  }
 }
