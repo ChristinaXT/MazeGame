@@ -14,7 +14,5 @@ Render.run(render);
 Runner.run(Runner.create(), engine);
 
 //Walls
-const walls = [
-  Bodies.rectangle(400, 0, 800, 40 { isStatic: is true})
-];
+const walls = [Bodies.rectangle(400, 0, 800, 40, { isStatic: true})];
 World.add(world, walls);
