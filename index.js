@@ -10,3 +10,5 @@ const render = Render.create({
     height: 600
   }
 });
+Render.run(render);
+Runner.run(Runner.create(), engine);
