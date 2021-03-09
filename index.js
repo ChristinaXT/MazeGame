@@ -13,6 +13,10 @@ const render = Render.create({
 Render.run(render);
 Runner.run(Runner.create(), engine);
 
+World.add(world, MouseConstraint.create(engine, {
+  mouse: Mouse.create(render.canvas)
+}))
+
 //Walls
 const walls = [
   Bodies.rectangle(400, 0, 800, 40, { isStatic: true }),
