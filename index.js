@@ -34,7 +34,7 @@ World.add(world, walls);
 
 //Random Shapes
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 50; i++) {
   if (Math.random() > 0.5) {
   World.add(
     world,
