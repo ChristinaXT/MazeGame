@@ -12,3 +12,8 @@ const render = Render.create({
 });
 Render.run(render);
 Runner.run(Runner.create(), engine);
+
+//Walls
+const walls = [
+  Bodies.rectangle()
+];
