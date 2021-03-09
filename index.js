@@ -26,4 +26,6 @@ const walls = [
 ];
 World.add(world, walls);
 
+//Random Shapes
+
 World.add(world, Bodies.rectangle(200, 200, 50, 50));
