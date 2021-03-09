@@ -16,9 +16,12 @@ const render = Render.create({
 Render.run(render);
 Runner.run(Runner.create(), engine);
 
-World.add(world, MouseConstraint.create(engine, {
+World.add(
+  world,
+  MouseConstraint.create(engine, {
   mouse: Mouse.create(render.canvas)
-}));
+  })
+);
 
 //Walls
 const walls = [
@@ -31,7 +34,7 @@ World.add(world, walls);
 
 //Random Shapes
 
-for (let i = 0; i < 20, i++) {
+for (let i = 0; i < 20; i++) {
   World.add(
     world,
     Bodies.rectangle(Math.random() * width, Math.random() * height, 50, 50)
